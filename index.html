@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="./DOM_index.js" defer></script>
+    <title>Learning and Growing</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .hero-image {
+            width: 100%;
+            max-width: 500px;
+            height: 300px;
+            object-fit: cover;
+        }
+        
+        .testimonial-card {
+            margin-bottom: 20px;
+        }
+        
+        .testimonial-image {
+            height: 200px;
+            object-fit: cover;  }
+        
+        .course-section {
+            padding: 20px;
+        }
+        
+        .testimonials-section {
+            background-color: #198754;
+            padding: 20px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="text-center bg-primary py-4">
+        <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/transcend-hero.width-1300.jpg"
+            class="hero-image rounded" alt="Learning and Growing">
+        <h1 class="mt-3 text-white">LEARNING AND GROWING</h1>
+    </div>
+
+    <!-- Course Navigation and Descriptions -->
+    <div class="container course-section">
+        <div class="row">
+            <!-- Course Navigation -->
+            <div class="col-md-4">
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-3">
+                        <a class="nav-link active" href="#course1">Course 1: Discovering Your Purpose</a>
+                    </li>
+                    <li class="nav-item mb-3">
+                        <a class="nav-link" href="#course2">Course 2: You Are What You Think: Metacognition</a>
+                    </li>
+                    <li class="nav-item mb-3">
+                        <a class="nav-link" href="#course3">Course 3: Watch Your Words: The Power of Speech</a>
+                    </li>
+                    <li class="nav-item mb-3">
+                        <a class="nav-link" href="#course4">Course 4: An Authentic Image: How Do You Show Up in the World?</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Course Descriptions -->
+            <div class="col-md-8">
+                <div id="course1" class="mb-4">
+                    <h3>Course 1: Discovering Your Purpose</h3>
+                    <p>The path to discovering your calling should be just as exciting as living it out. Sometimes
+                        we focus so much on arriving that we forget to simply enjoy the journey. This course will provide you with the
+                        practical steps to appreciating the process.</p>
+                </div>
+
+                <div id="course2" class="mb-4">
+                    <h3>Course 2: You Are What You Think: Metacognition</h3>
+                    <p>It's so important to be aware of what you're thinking. The way we think about a situation,
+                        place, person or thing impact our interactions. The key to shifting what you think is to target how you think. This
+                        course will provide you with the necessary tools to monitor and assess your thoughts, feelings and reasoning.</p>
+                </div>
+
+                <div id="course3" class="mb-4">
+                    <h3>Course 3: Watch Your Words: The Power of Speech</h3>
+                    <p>What you say is just as important as how you say it. You reap what you sow is not just
+                        pertaining to actions but words as well. The words you speak have the power to shape your experience whether positive
+                        or negative. This course examines the importance of being intentional about the words we release and where we place
+                        our agreement.</p>
+                </div>
+
+                <div id="course4" class="mb-4">
+                    <h3>Course 4: An Authentic Image</h3>
+                    <p>Image is more than how you outwardly appear. How you show up internally impacts how you show
+                        up in the world. Although style has a part to play in a person's image, each person brings who they are to what they
+                        wear. This course examines the introspective nature of image and personal style.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div class="testimonials-section">
+        <h2 class="text-center mb-4">TESTIMONIALS</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card testimonial-card">
+                        <img src="https://static01.nyt.com/images/2022/04/13/opinion/06Simpson/06Simpson-articleLarge.jpg"
+                            class="card-img-top testimonial-image" alt="happy client 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Excellent Courses!</h5>
+                            <p class="card-text">I definitely feel more confident in my identity and pursuit of my purpose.</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card testimonial-card">
+                        <img src="https://imageio.forbes.com/specials-images/imageserve/626bd95f640aebc53adeb25c/Headshot-of-author-Deepa-Purushothaman-wearing-white-shirt/960x0.jpg"
+                            class="card-img-top testimonial-image" alt="happy client 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Life Changing!</h5>
+                            <p class="card-text">My leadership abilities and capacity have increased at home and in my business.</p>
+                            <p>Marissa Cruz</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card testimonial-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKKUqXc8JOb_GaQGuMSNGmvdL4wNpN_CtDw&s"
+                            class="card-img-top testimonial-image" alt="happy client 3">
+                        <div class="card-body">
+                            <h5 class="card-title">A Breath of Fresh Air!</h5>
+                            <p class="card-text">My leadership abilities and capacity have increased at home and in my business.</p>
+                            <p>Sharaza Nahar</p>
+                            <a href="#" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+        
+</body>
+</html>
+
