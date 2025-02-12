@@ -1,4 +1,5 @@
-* Upgrading previous coursework webapage: "Learing and Growing"
+* Upgrading previous coursework webapage: "Learning and Growing"
+* Upgraded title, course links, added contact form and animation to testimonial cards(Read more tabs) for more interactivity
   
 * * HTML, Javascript, CSS
    
